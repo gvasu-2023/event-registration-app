@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mindcraft Event Registration</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Mindcraft Event Registration</h1>
+
+    <form id="registrationForm">
+
+      <input type="text" id="name" placeholder="Enter Name" required>
+
+      <input type="email" id="email" placeholder="Enter Email" required>
+
+      <select id="event">
+        <option value="AI Workshop">AI Workshop</option>
+        <option value="Hackathon">Hackathon</option>
+        <option value="Web Development">Web Development</option>
+      </select>
+
+      <button type="submit">Register</button>
+
+    </form>
+
+    <p id="message"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
