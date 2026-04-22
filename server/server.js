@@ -7,7 +7,9 @@ const Registration = require("./models/Registration");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://events-urk23cs7130-vasu.vercel.app"
+}));
 app.use(express.json());
 
 const MONGO_URI = process.env.MONGO_URI;

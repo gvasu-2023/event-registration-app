@@ -10,7 +10,7 @@ $("#registrationForm").submit(function (e) {
 
   $.ajax({
 
-    url: "http://localhost:5000/register",
+    url: "https://event-registration-backend-g9a6.onrender.com/register",
 
     type: "POST",
 
